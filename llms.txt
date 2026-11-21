@@ -1,0 +1,42 @@
+# BIM door: how an AI drives UNION
+
+> How an AI drives UNION, a BIM and drafting program, for structural, mechanical, electrical and architectural offices through its MCP door: the guide, every command, the one-line ops and 449 real drafting jobs with their calls and UNION's answers, played on UNION 1.0.0-beta.2.
+
+## Start here
+- [README](https://github.com/bim-door/bim-door/blob/main/README.md): what UNION is and how an AI works in it
+- [The guide](https://github.com/bim-door/bim-door/blob/main/guide/README.md): the work loop, the calls, fast ops, steps, recipes
+- [Everything in one file](https://github.com/bim-door/bim-door/blob/main/llms-full.txt)
+
+## Guide
+- [Two Towers: 15 worked prompts](https://github.com/bim-door/bim-door/blob/main/guide/two-towers.md)
+- [Start here](https://github.com/bim-door/bim-door/blob/main/guide/0-start-here.md)
+- [1. Connect, permissions, and working beside other agents](https://github.com/bim-door/bim-door/blob/main/guide/1-connect-permissions-and-working-beside-other-agents.md)
+- [2. Find any control: look it up before you say it is missing](https://github.com/bim-door/bim-door/blob/main/guide/2-find-any-control-look-it-up-before-you-say-it-is-missing.md)
+- [3. The map: what UNION can make and do, from the word you know to UNION's name](https://github.com/bim-door/bim-door/blob/main/guide/3-the-map-what-union-can-make-and-do-from-the-word-you-know-to-union-s.md)
+- [4. Fast ops: one line per element (the quick route, not the limit)](https://github.com/bim-door/bim-door/blob/main/guide/4-fast-ops-one-line-per-element-the-quick-route-not-the-limit.md)
+- [5. Commands, steps and dialogs: every other control](https://github.com/bim-door/bim-door/blob/main/guide/5-commands-steps-and-dialogs-every-other-control.md)
+- [6. See your work: pictures that read as a building](https://github.com/bim-door/bim-door/blob/main/guide/6-see-your-work-pictures-that-read-as-a-building.md)
+- [7. Materials, textures and the material node graph](https://github.com/bim-door/bim-door/blob/main/guide/7-materials-textures-and-the-material-node-graph.md)
+- [8. Blocks: place, colour and texture them](https://github.com/bim-door/bim-door/blob/main/guide/8-blocks-place-colour-and-texture-them.md)
+- [9. Forms, freeform curves and surfaces (NURBS, spline, loft, sweep, revolve)](https://github.com/bim-door/bim-door/blob/main/guide/9-forms-freeform-curves-and-surfaces-nurbs-spline-loft-sweep-revolve.md)
+- [10. ALBATROSS: cards through the door](https://github.com/bim-door/bim-door/blob/main/guide/10-albatross-cards-through-the-door.md)
+- [11. UNION AI window: talking with the person](https://github.com/bim-door/bim-door/blob/main/guide/11-union-ai-window-talking-with-the-person.md)
+- [12. Large models: what to do about them](https://github.com/bim-door/bim-door/blob/main/guide/12-large-models-what-to-do-about-them.md)
+- [13. UNION's words: answers to retry, answers that end the matter](https://github.com/bim-door/bim-door/blob/main/guide/13-union-s-words-answers-to-retry-answers-that-end-the-matter.md)
+- [14. Recipes (played step by step)](https://github.com/bim-door/bim-door/blob/main/guide/14-recipes-played-step-by-step.md)
+- [16. Index: command names by tab and panel](https://github.com/bim-door/bim-door/blob/main/guide/16-index-command-names-by-tab-and-panel.md)
+
+## Reference
+- [Commands](https://github.com/bim-door/bim-door/blob/main/commands/README.md): 499 commands with step lines, UNION's answers and options
+- [Ops](https://github.com/bim-door/bim-door/blob/main/ops.md): the 54 one-line op kinds
+
+## Examples
+- [All examples](https://github.com/bim-door/bim-door/blob/main/examples/README.md): 449 jobs; [jobs.jsonl](https://github.com/bim-door/bim-door/blob/main/examples/jobs.jsonl)
+- Setting out and structure: 64 jobs
+- Architecture: 71 jobs
+- Building services: 99 jobs
+- Views, sheets and schedules: 76 jobs
+- Annotation, details and materials: 67 jobs
+- Change, modify and freeform: 72 jobs
+
+UNION runs with a licence: free trial at https://www.unionbim.com/. Free research licences for AI labs, universities and researchers: research@unionbim.com.
