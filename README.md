@@ -12,6 +12,7 @@ UNION models a building and makes its drawings: plans, sections, elevations, det
 - [examples/](examples/README.md): 449 drafting jobs, request, calls and result, every line played green; all of them in [examples/jobs.jsonl](examples/jobs.jsonl).
 - [guide/two-towers.md](guide/two-towers.md): 15 prompts that draw two steel towers, a gridshell and a drawing set.
 - [llms.txt](llms.txt) and [llms-full.txt](llms-full.txt): the map, and everything in one file.
+- The same 449 jobs as a dataset: [huggingface.co/datasets/bimdoor/drafting-jobs](https://huggingface.co/datasets/bimdoor/drafting-jobs).
 
 ## Reading a job
 
