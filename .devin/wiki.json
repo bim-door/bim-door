@@ -1,0 +1,7 @@
+{
+  "repo_notes": [
+    {
+      "content": "This repository is called BIM door. Always call it BIM door, in every title and sentence; never 'UNION MCP Door' or 'UNION BIM MCP Door'. BIM door documents how an AI drives UNION, a BIM and drafting program, through UNION's built-in MCP door: the guide (guide/), every command with its step line (commands/), the 54 one-line op kinds (ops.md), and 449 drafting jobs played green on UNION 1.0.0-beta.2 (examples/ and examples/jobs.jsonl). UNION runs with a licence: free trial at https://www.unionbim.com/; free research licences for AI labs, universities and researchers: research@unionbim.com."
+    }
+  ]
+}
