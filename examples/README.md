@@ -1,1 +1,473 @@
-examples
+# Examples: drafting jobs done through UNION's AI calls
+
+449 real drafting jobs, each the request in plain words, the exact calls an AI sends to UNION, and UNION's answer to each. Every job was played from a new project on UNION 1.0.0-beta.2 and is here because every line came back green. All of them in one file: [jobs.jsonl](jobs.jsonl).
+
+## [Setting out and structure](setting-out-and-structure.md)
+
+- 1001. Set up the levels for a four-storey steel office, 3.6 m floor to floor, with the roof at 14.4 m.
+- 1002. Rename the two template levels Ground Floor and First Floor and put the first floor at 4200 mm.
+- 1003. Add a basement level 3 m below ground for a car park and stand four concrete columns in it.
+- 1004. Make the ground floor double height by raising Level 2 to 6000 mm; the columns must follow.
+- 1005. Copy Level 2 up three times at 3.4 m to make the typical floors of a tower.
+- 1006. Add a plant level, delete it, then bring it back with Undo and take it away again with Redo.
+- 1007. Put a mezzanine platform at 2.7 m inside a 7 m high warehouse: a 9 x 6 m deck on four columns with edge beams.
+- 1008. Name the levels L00 Ground, L01 First and L02 Second to match the client's drawing numbers, then run a column up through all three.
+- 1009. The site is at RL 12.5: move Ground, Level 1 and the Roof up to 12500, 15900 and 19300 and run a steel column through them.
+- 1010. Add a second floor to the house frame at 6800 mm and lift the roof to 10200 mm.
+- 1011. Set out a square column grid, three bays each way at 8 m, lettered across and numbered up, with a column at every crossing.
+- 1012. The building sits skew to the boundary: set out a 7.5 x 6 m grid and swing the whole grid 30 degrees, then put columns on the crossings.
+- 1013. Set out a fan-shaped grid for an auditorium: five lines splayed 10 degrees apart from the stage point, cut by one cross line, with a column at each crossing.
+- 1014. Set out the plant room grid with uneven bays of 6.0, 7.5, 9.0, 7.5 and 6.0 m and two rows 12 m apart, with a column at every crossing.
+- 1015. The client calls the gridlines X, Y and Z instead of A, B and C: rename them and shift all three 250 mm east.
+- 1016. Shift gridline B 500 mm east to clear the stair core, then undo it and do it again.
+- 1017. Extend the grid east by copying gridline A six metres and then twelve metres.
+- 1018. The building is symmetrical about a centre line at 12 m: draw the west half of the grid, mirror it east and add the centre line.
+- 1019. Set out a radial grid for a circular tank farm: one line 20 m long, copied round the centre every 15 degrees to 60 degrees.
+- 1020. Take gridline C out of a four-line grid, change my mind with Undo, then take it out again with Redo.
+- 1021. Click in two grid lines each way for a 6 x 6 m bay and put columns where they cross.
+- 1022. Place a 310UC158, a 250UC89.5 and a 200UC52.2 column along one line so the three sizes can be compared.
+- 1023. Four 400 x 400 concrete columns at the corners of a 12 x 8 m plant room, 5 m high.
+- 1024. Six 600 dia round columns for a car-park deck: two rows of three at 8.1 m, the rows 16.2 m apart.
+- 1025. Click in six columns along the south wall line, 4.5 m apart.
+- 1026. Run four 300 dia columns up through two storeys of 3.3 m, from Level 1 to a new Level 3.
+- 1027. Four 323.9 x 9.5 tube posts, 4.8 m high, for a 6 x 6 m entrance canopy.
+- 1028. Draw one column and array it five times at 7.2 m along the frontage.
+- 1029. Draw one 8 m secondary beam on the first floor and array it five times at 3 m centres.
+- 1030. Frame a four-storey steel building 9 x 6 m: four columns full height and a ring of beams at each floor.
+- 1031. Span a 530UB82.0 beam 8.4 m between two columns at the first floor, 4.2 m up.
+- 1032. Click a ring of beams round a 12 x 9 m bay at the first floor, 3.6 m up.
+- 1033. Lay out a floor bay 12 x 9 m: two 610UB125 girders 12 m apart and three 360UB50.7 joists at 3 m centres between them.
+- 1034. Brace one 6 m bay with a cross of two 168.3 x 6.4 tubes between the columns, ground to first floor.
+- 1035. Put chevron bracing in a 6 m bay: two braces meeting at the middle of the first-floor beam.
+- 1036. Set out one portal frame: 30 m span, 6 m to the eaves, ridge at 7.5 m, 310UC96.8 columns and 530UB82.0 rafters.
+- 1037. Set out a portal-frame shed: five frames 7.5 m apart, 24 m span, columns at every frame and an eaves beam down each side.
+- 1038. Brace a lift core over three storeys in a zigzag, 3.6 m storeys and a 6 m bay.
+- 1039. Cantilever three 460UB74.6 canopy beams 3 m out from a column line along the front of the building.
+- 1040. Carry the tower columns on a 12 m transfer beam: a 1200WB278 welded beam on two 500WC440 columns over the podium.
+- 1041. Stiffen the roof plane of a 6 x 6 m bay with two crossing diagonal braces at eaves level.
+- 1042. Set out the column grid for a warehouse: six 9 m bays along its length, three 10 m bays across, a column at every crossing.
+- 1043. Lay out the column grid of a car-park deck: four bays of 8.1 m and two rows of columns 16.2 m apart.
+- 1044. Add a basement car park 3.2 m down and put its columns on a 8.1 x 16.2 m grid, up to the ground floor.
+- 1045. Set out a mezzanine at 3 m on its own grid, three lines 7.5 m apart by two lines 6 m apart, with a beam along each grid line.
+- 1047. Stack the columns of a two-deck car park: decks at 2.9 m and 5.8 m, eight columns on each deck, on a 8.1 x 16.2 m grid.
+- 1048. Build a five-storey steel frame at 3.8 m storeys by copying Level 2 up, then run four corner columns to the top.
+- 1049. The slab is being raised 600 mm for flood protection: lift Level 1 to 600, then span a beam across the two columns that stand on it.
+- 1050. Rename gridlines A to D as P1 to P4 to match the client's pier numbers.
+- 1051. Fit the grid to an angled boundary: pull gridline A 400 mm west and swing gridline B 5 degrees about its foot.
+- 1052. Add a half level at 1.5 m for a split-level house and carry a column up from Ground to it, then on to Level 1.
+- 1053. Put a 3 x 2 grid at 6 m on the house plan and a column at every crossing on the ground floor.
+- 1054. Carry the upper floor over a 9 m open-plan ground floor on a 610UB125 steel beam and two 310UC158 columns.
+- 1055. Brace a 3 m wide lift shaft with two 150UC37.2 columns and a cross of 100UC14.8 braces from Ground to Level 1.
+- 1056. Frame the roof of a 12 x 8 m building in steel: four columns Ground to the Roof, a ring beam by clicks and one purlin across the middle.
+- 1057. Draw one 250UC89.5 column and array it into a colonnade of eight at 3.6 m along the front of the building.
+- 1058. Add a plant deck level 2.4 m above the roof and frame it: two columns up from the roof and a beam across them.
+- 1059. Add Level 3 at 7200 mm with its own structural framing plan and put a beam on it.
+- 1060. Prop a wall column with a 3 m raking brace rising 3 m from the slab.
+- 1061. Click in a new level at 4.5 m with the Level tool, then stand a column from Level 1 up to Level 2.
+- 1062. Copy Level 2 up 4.2 m for the hospital's plant floor, call the copy Plant Floor and run a column up to it.
+- 1063. Two grid lines cross at 45 degrees on a corner site: draw one, copy it round 45 degrees and put a column where they cross.
+- 1066. Put columns at every crossing of a 2 x 2 grid, take the whole lot back with Undo, then bring it back with Redo.
+- 1067. The building steps down: add a Low Roof level at 5400 mm, lift the main Roof to 7200 mm and carry a column to each.
+
+## [Architecture](architecture.md)
+
+- 2001. Draw a 6 m blockwork boundary wall, 1800 high, with a 3 m return at each end.
+- 2002. Set out a 6 x 4 m site office on Ground: four walls and a slab.
+- 2003. Click out the walls of a 5 x 4 m store room corner to corner, close the loop and hang a door.
+- 2004. Draw an 8 x 5 m plant room from two corners, then put a double door in the south wall and a window in the north.
+- 2005. Draw a 10 x 6 m house outline in brick veneer with a 110 stud partition down the middle.
+- 2006. Draw three walls on Ground: a 2400 screen wall, a wall that runs up to Level 1, and a 3600 high wall.
+- 2007. Draw a curved feature wall, 6 m chord with a 2 m rise, and a straight return wall at each end.
+- 2008. Add a curved blockwork garden wall, 8 m between its ends, passing through a point 2.5 m out.
+- 2009. Draw a hexagonal garden pavilion 4 m across the corners, with a slab and a pitched roof.
+- 2010. Draw the walls of an L-shaped house, 12 x 8 m overall with a 6 x 4 m corner cut out, and slab it.
+- 2011. Pour a 15 x 10 m warehouse slab and stand precast walls round it.
+- 2012. Sketch a floor slab over the walls of a 7 x 5 m classroom.
+- 2013. Lay a tiled wet-area slab in the 3 x 3 m bathroom and a carpet slab in the 5 x 3 m bedroom next to it.
+- 2014. Build the ground floor of an 8 x 6 m house with its slab, then add a timber first floor and the walls of the upper level.
+- 2015. Put a 2700 high ceiling in the 6 x 4 m office by clicking inside its walls.
+- 2016. Draw a plasterboard-on-grid ceiling over a 12 m long, 1800 wide corridor at 2400.
+- 2017. Ceiling the reception at 2700 and the meeting room at 2400 with a 600 x 600 grid, by clicking in each room.
+- 2018. Put an insulated metal deck flat roof over a 10 x 6 m store.
+- 2019. Roof the brick house with a 25 degree hip roof in concrete tiles on battens.
+- 2020. Roof the 8 x 5 m cottage with a gable roof: slope the long sides, leave the gable ends upright, 400 overhang, sitting on the wall tops.
+- 2021. Give the 6 x 4 m studio a single-pitch roof that falls to the south wall, drawn on an eaves plan.
+- 2022. Sketch the roof of the 9 x 6 m machinery shed from its outline on an eaves plan and finish it.
+- 2023. Roof the 8 x 5 m community room flat with an extensive green roof, 300 overhang, and run a fascia round all four edges.
+- 2024. Roof the 10 x 6 m house with a 30 degree hip roof and put a fascia and a gutter on its south eave.
+- 2025. Place a room named Office, number 101, inside the 6 x 4 m office and tag it.
+- 2026. Divide a 12 x 5 m flat into a bedroom, a living room and a bathroom with stud partitions, and name and number each room.
+- 2027. Put an entry door in the middle of the south wall of the 10 x 6 m cottage with a window either side of it.
+- 2028. Space four 1500 wide windows evenly along the 12 m north wall of the classroom, sills at 900.
+- 2029. Give the 14 x 8 m hall two 1200 exit doors on the south wall and a 1000 door on the east wall.
+- 2030. Cut a 2.5 m square lift shaft from Ground up to Level 1 inside concrete walls.
+- 2031. Sketch a 1.2 x 0.8 m service riser opening through the first floor slab.
+- 2032. Run a 1200 wide straight stair from Ground up to Level 1 and put a handrail along each side.
+- 2033. Add a 4 x 1.5 m balcony slab at Level 1 with a balustrade round its three free sides.
+- 2034. Glaze the 8 m front of the shop with an exterior glazing curtain wall and divide it with a vertical grid line.
+- 2035. Put a 1000 wide spiral stair from Ground to Level 1 inside a 3.4 m square stairwell.
+- 2036. Draw an L-shaped stair from Ground to Level 1 in the 3 x 5 m stair hall.
+- 2037. Draw a U-shaped stair 1100 wide from Ground to Level 1 in the stair core of the walk-up.
+- 2038. Draw a 10 m long, 1200 wide access ramp up from Ground and put a handrail along each side.
+- 2039. Cut a 3 x 1.5 m stair void in the first floor slab and put a railing round it.
+- 2040. Split the 10 x 5 m open-plan office into a work area and a meeting area with a room separator line and name both rooms.
+- 2041. Draw a small three-bedroom house, 12 x 9 m in brick veneer, with a slab, internal walls, a front door, windows, a hip roof and its rooms named.
+- 2042. Fit out an 8 x 12 m shop unit: glazed shopfront, a stock room at the back with a door, a counter and a ceiling.
+- 2043. Lay out a 9 x 3 m transportable site office with a slab, a door, two windows, a flat roof and its room.
+- 2044. Draw an 8 x 4 m ablution block with three toilet cubicles each with its own door, a tiled floor and a ceiling.
+- 2045. Draw a two-storey walk-up block, 10 x 7 m: ground and first floor walls, a slab and a timber first floor, a stair between the levels and a hip roof.
+- 2046. Draw a 6 x 6 m double garage with a 4800 wide roller door in the south wall, a personal door in the east wall and a flat roof.
+- 2047. Draw a 4 x 3 m park kiosk in brick veneer with a serving window 1800 wide at 1000 sill, a side door and a low hip roof.
+- 2048. Lay out a 16 x 8 m classroom block: two classrooms on the south side, a 2.2 m corridor on the north, a door from each classroom and a big window to each.
+- 2049. Draw a 7 x 6 m granny flat: living room, bedroom and bathroom, a front door, two windows and a hip roof.
+- 2050. Fit out a 12 x 8 m medical suite: a reception and waiting area at the front, two consulting rooms behind it with a door each, and a ceiling over reception.
+- 2051. Draw a 10 x 6 m office, then cut a cross section through it and add a south elevation.
+- 2052. Make a Level 1 plan for the walk-up and put it on a new sheet A900.
+- 2053. Hang three doors in the hall and list them in a door schedule with their type and width.
+- 2054. Draw the 8 x 5 m cottage and add a north, south, east and west elevation named for it.
+- 2055. Cut a long section through the 12 x 6 m office and put the plan and the section together on a new A1 sheet.
+- 2056. Dimension the 10 x 6 m office on a plan of its own: the south wall, the west wall and the east wall, with a note.
+- 2057. Divide the 9 x 5 m flat into two rooms, name them and list the rooms in a schedule with number, name and area.
+- 2058. Add a mezzanine level at 2400 over the end of the 12 x 8 m workshop with its own plan and a floor slab.
+- 2059. Raise Level 1 to 3600 for a tall ground floor and stand the upper walls on it.
+- 2060. Roof the 12 x 6 m workshop with a gable roof and hang a gutter on each long eave.
+- 2061. Ceiling the 6 x 4 m office at 2700 and make a reflected ceiling plan of it named Office RCP.
+- 2062. Draw an eight-sided gazebo, 5 m across the flats, and place a room named Gazebo inside it.
+- 2063. Draw a 6 x 6 m pavilion and lay its floor by picking the walls.
+- 2064. Draw a 6 x 4 m office, put the last wall in the wrong place, undo it and draw it right.
+- 2065. Set out grid lines A, B and C at 5 m centres with grids 1 and 2 across them and dimension the three lines as a string.
+- 2066. Click out a U-shaped school wing, 16 x 7 m overall round a 6 m courtyard, and slab it.
+- 2067. Draw a 6 x 6 m atrium with walls to the Roof level, a slab, a ceiling at 5700 and a flat roof.
+- 2068. Roof the L-shaped house with one 25 degree hip roof over both wings.
+- 2069. Add a third storey to the block: make the Roof level Level 2, put a new Top Roof at 9000 and stand the walls on Level 2.
+- 2070. Build an entrance portico, 6 x 3 m, on a slab with a column at each corner and a flat roof over it.
+- 2071. Draw a semi-detached pair of 6 x 8 m houses sharing a block party wall, each with its own front door, a rear window and a named room.
+
+## [Building services](building-services.md)
+
+- 3001. Run a 600 x 250 supply duct 12 m down the corridor at 2700 mm and put four diffusers on it.
+- 3002. Draw a supply duct and a return duct side by side along a 20 m corridor, with a diffuser every 5 m on the supply and a grille every 5 m on the return.
+- 3003. Put an air handling unit at the end of the corridor and run its supply and return ducts down the corridor between the corridor walls.
+- 3004. Run a 300 mm round exhaust duct 9 m from the toilet block to the exhaust fan and put the fan at the end of it.
+- 3005. Draw a 12 m main supply duct 800 x 300 with two 400 x 250 branches going north at 4 m and 8 m, each ending in a diffuser.
+- 3006. Draw an 18 m supply duct that steps down in size every 6 m: 800 x 300, then 600 x 300, then 400 x 250.
+- 3007. Run a 500 x 250 supply duct 8 m east, turn it north for 5 m with an elbow, and end it with a diffuser.
+- 3008. Draw a 10 m return air duct 600 x 300 at 2600 mm and put three return grilles on it.
+- 3009. Run a 500 x 400 kitchen exhaust duct 6 m long at 3000 mm and put the exhaust fan at its end.
+- 3010. Run a 500 x 250 supply duct along the same line on both floors, with a diffuser on each.
+- 3011. Lay out the supply air for an office floor: a 12 m main with four branches at 2 m, 5 m, 8 m and 11 m, each ending in a diffuser.
+- 3012. Draw an 8 x 6 m plant room with two air handling units in it and run a supply and a return duct out of the east side.
+- 3013. Lay a supply duct, a return duct and a 300 mm round exhaust duct side by side along a 15 m corridor, each on its own system.
+- 3014. Draw a 400 x 200 supply duct, take it back, then bring it back again.
+- 3015. Draw a 6 m supply duct with three diffusers, then copy the whole run 3 m north for the next room.
+- 3016. Draw two supply ducts 2 m apart, then delete the lower one because it was drawn in the wrong place.
+- 3017. Draw a 5 m branch duct 400 x 250 and place a duct accessory in it at 2 m.
+- 3018. Run a 6 m supply duct and connect a flexible duct from its end to a diffuser 1.5 m away.
+- 3019. Draw three supply ducts of different sizes and make a duct schedule listing mark, type, width and height.
+- 3020. Put four diffusers on a supply duct and make a schedule of the air terminals by type with a count.
+- 3021. Place an air handling unit, a fan coil unit and an exhaust fan and schedule the mechanical equipment with mark and type.
+- 3022. Show the supply and the return duct on the plan and drop a duct legend beside them.
+- 3023. Draw a supply duct with two diffusers and run the duct system check.
+- 3024. Use the Duct tool to draw a 500 x 250 supply duct at 2700 mm and a diffuser on it.
+- 3025. Draw a supply duct and a return duct with the Duct tool, 2 m apart, each with a diffuser.
+- 3026. Set two air handling units on the roof plant deck and run a 600 x 300 exhaust duct between them.
+- 3027. Feed two corridors from two air handling units: each unit gets its own 500 x 250 supply duct, 10 m long, with a diffuser in the middle.
+- 3028. Run a 400 mm round extract main 9 m long and take three 150 mm round branches off it at 2, 5 and 8 m.
+- 3029. Draw a 5 x 4 m server room and place a cooled space in it with four people and a 4000 power load.
+- 3030. Run a 100 mm cold water main 10 m along the north wall at 2500 mm with three 25 mm branches going south at 2, 5 and 8 m.
+- 3031. Run a 40 mm hot water pipe and a 50 mm cold water pipe side by side down the service corridor, 300 mm apart.
+- 3032. Draw a hydronic heating flow pipe and return pipe around a 6 x 4 m room with the Pipe tool, 50 mm, each turning one corner.
+- 3033. Run a 100 mm sanitary drain 8 m long at 1 per cent fall and put three fixtures along it.
+- 3034. Run a 50 mm vent pipe 5 m at 2800 mm and a 100 mm sanitary pipe 5 m beside it.
+- 3035. Place a water tank, run a 50 mm outlet pipe 6 m from it and put an isolating valve in the pipe.
+- 3036. Run a 32 mm cold water pipe 7 m along the wall and put four basins on the other side of it.
+- 3037. Draw a 65 mm pipe 6 m long, put a valve in it at 1.5 m and a pipe fitting at 4.5 m.
+- 3038. Take a 100 mm cold water pipe up 3 m from the floor in a riser, then carry it 5 m east along the ceiling void.
+- 3039. Run a 65 mm cold water pipe 8 m on Level 1 and the same pipe on Level 2 above it.
+- 3040. Run a 150 mm stormwater pipe 12 m long at a 1.5 per cent fall.
+- 3041. Draw the cold water and the hot water pipes and put a pipe legend beside them.
+- 3042. Draw three pipes of 100, 50 and 25 mm and make a pipe schedule by type with a count.
+- 3043. Place three plumbing fixtures and schedule them by type with a count.
+- 3044. Draw a 100 mm hot water riser up to 3000 mm, take it back, then bring it back again.
+- 3045. Draw two cold water pipes 1 m apart and delete the upper one.
+- 3046. Draw a cold water main with two branches and run the pipe system check.
+- 3047. Place a hot water tank and run a 40 mm hot water flow and return pair 8 m out from it, with a valve in the flow pipe.
+- 3048. Put a row of three basins along the north wall and a row of three along the south wall of a 6 m washroom.
+- 3049. Draw 100, 65 and 40 mm cold water pipes 1 m apart with the Pipe tool.
+- 3050. Run a 100 mm wet sprinkler main 9 m long with three 40 mm branches at 1.5, 4.5 and 7.5 m, and put four sprinklers on each branch.
+- 3051. Lay out sprinklers for a 12 x 9 m office at 3 m spacing, three branch lines off a riser main on the west wall.
+- 3052. Put sprinklers every 3 m down a 24 m corridor on a 65 mm pipe at 3000 mm.
+- 3053. Run a 100 mm wet main for the offices and a 100 mm dry main for the car park, 5 m apart, and give each three sprinklers.
+- 3054. Run a pre-action sprinkler pipe through a 6 x 4 m server room and put four sprinklers on it.
+- 3055. Lay a 150 mm hydrant ring main around the building, 30 x 20 m, with a hydrant at each corner.
+- 3056. Run a 50 mm fire supply pipe down a 20 m corridor and put three hose reels on it.
+- 3057. Put the fire pump in the pump room and connect a 150 mm suction pipe on one side and a 100 mm discharge pipe on the other.
+- 3058. Put three pendant sprinklers at 2800 mm below the ceiling and three upright sprinklers at 3300 mm in the ceiling void on the same pipe.
+- 3059. Put six sprinklers on a branch line and schedule them by type with a count.
+- 3060. Put three sprinklers on a pipe, then take the last one back out with Undo.
+- 3061. Run a 100 mm wet main on each floor, 10 m long, and put two sprinklers on the Level 1 main.
+- 3062. Run a sprinkler main with a branch and check the pipe systems.
+- 3063. Run a 150 mm fire main 16 m along the loading dock, put two hydrants on it and two hose reels on the wall behind.
+- 3064. Draw a 100 mm sprinkler main with the Pipe tool and a 40 mm branch off it, then add two sprinklers on the branch.
+- 3065. Draw a 6 m supply duct with a diffuser and name its duct system SA-01.
+- 3066. Draw a 9 m cold water pipe and name its piping system CW-01.
+- 3067. Run a 32 mm cold water pipe 5 m along the wall and connect a flexible pipe from its end to a basin 800 mm away.
+- 3068. Draw a 6 x 4 m office, place a space in it and put a thermostat on the wall beside the door position.
+- 3069. Rough in a supply duct run as a single-line placeholder duct 12 m long before it is sized.
+- 3070. Run a 300 x 100 cable tray 15 m down the corridor at 3000 mm.
+- 3071. Run a 450 mm main cable tray 12 m long and branch a 300 mm tray off it at 6 m going north for 5 m.
+- 3072. Run a 450 mm power tray at 3000 mm and a 150 mm data tray at 2700 mm side by side down a 15 m corridor.
+- 3073. Put a distribution board on the wall and run three 25 mm conduits from it to the first three outlet positions.
+- 3074. Draw a 6 x 4 m switchboard room and put a main switchboard against the east wall.
+- 3075. Lay out six luminaires on a 3 m grid in a 9 x 6 m office, three across and two down.
+- 3076. Put a luminaire every 3 m down a 24 m corridor.
+- 3077. Draw an 8 m wall and put six power outlets along it at 300 mm from the floor line.
+- 3078. Put three light switches and three data points along the corridor wall.
+- 3079. Put the fire alarm panel at the entry and five detection points down the corridor.
+- 3080. Run 20, 25 and 32 mm conduits 8 m long side by side, 200 mm apart.
+- 3081. Wire the distribution board to the outlet 3 m away.
+- 3082. Run a 600 x 100 cable tray 10 m to the main switchboard at its end.
+- 3083. Put four emergency luminaires in the corridor and two fire alarm call points at the exits.
+- 3084. Draw a 300 mm cable tray, take it back, then bring it back again.
+- 3085. Put four luminaires in a room and schedule them by type with a count.
+- 3086. Run two conduits 500 mm apart and delete the lower one.
+- 3087. Draw a 450 mm cable tray 10 m long and copy it 1 m north.
+- 3088. Run a 300 mm cable tray down a 20 m corridor, hang six luminaires under it and put two light switches at the ends.
+- 3089. Draw a 6 x 5 m meeting room and place a space in it that is heated and cooled for twelve people.
+- 3090. Draw an 8 x 6 m office, run a supply duct through it with two diffusers and place a space.
+- 3091. Draw a 9 x 6 m room with a ceiling at 3000 mm and run a supply duct above it with three diffusers.
+- 3092. Draw a 6 x 5 m boiler room with a boiler and a pump in it and run hydronic flow and return pipes out through the east wall.
+- 3093. Draw a 9 x 6 m office with a ceiling at 3000 mm and put six sprinklers in it on a 3 m grid with a branch line above.
+- 3094. Draw a 9 x 6 m office with a ceiling at 2700 mm and put six luminaires in it on a 3 m grid.
+- 3095. Draw a 6 x 4 m toilet block, put four fixtures along the north wall and run a 100 mm sanitary pipe behind them.
+- 3096. Draw a 5 x 4 m server room, put two cooling units in it and run a supply duct with two diffusers across it.
+- 3097. Draw a 7 x 5 m plant room with an air handling unit, run its supply duct east and a chilled water flow pipe beside it.
+- 3098. Draw an 8 x 6 m office with a ceiling at 2800 mm and put four luminaires and four sprinklers in it, alternating on a 2 m by 3 m grid.
+- 3099. Draw a 20 m corridor with its two walls and stack a duct, a pipe and a cable tray down it at different heights.
+
+## [Views, sheets and schedules](views-sheets-and-schedules.md)
+
+- 4001. Cut a section through my 8 by 6 m office and put it on its own sheet at 1:50.
+- 4002. Make the front and side elevations of my 10 by 7 m house and put both on one A1 sheet at 1:100.
+- 4003. Give me a separate Level 1 plan for the furniture layout of the 9 by 6 m upstairs flat, at 1:50 on its own sheet.
+- 4004. Draw a 2700 mm ceiling over my 7 by 5 m studio and make a lighting ceiling plan of it at 1:50 on a new sheet.
+- 4005. Set out a four column steel bay on Level 1 with two beams, make a Level 1 framing plan at 1:100 and put it on sheet S101.
+- 4006. Write the general notes for the job as a drawing and put them on a sheet.
+- 4007. Add a legend called Door Types to the drawing set and put it on the schedules sheet.
+- 4008. I have an office with a front door and a back door; give me a door list sorted by mark and put it on the schedules sheet.
+- 4009. Make grid lines A and B red in the Ground plan only.
+- 4010. Take the level and grid lines off the 3D view and give it a light grey background.
+- 4011. List the windows of my 8 by 6 m cottage by sill height, highest first, and put the list on the schedules sheet.
+- 4012. Name the two rooms of my 8 by 6 m flat, Living and Bedroom, and give me a room area list on the schedules sheet.
+- 4013. Give me the wall lengths by type for a 12 by 8 m shed with brick cavity side walls and block end walls.
+- 4014. Set out six columns on a 2 by 3 grid with four beams and give me column and beam schedules by type on a new sheet.
+- 4015. Add a floor to each storey of my 10 by 7 m house and list the floor areas by level.
+- 4016. Add Level 2 at 6600 and grids A to C, then list the levels by elevation and the grids by name.
+- 4017. Put a 25 degree roof over my 9 by 6 m extension and list its area and slope.
+- 4018. Put a straight stair between Ground and Level 1 in my house and list it with its base and top levels.
+- 4019. Open three A3 sheets for the first issue: a cover, the notes and the details, and take out the notes sheet again.
+- 4020. Put the site plan back on its sheet at 1:500, cropped to my 60 by 40 m site.
+- 4021. Make a plan for the brickie that shows the walls only, with no doors or windows, for my 9 by 6 m house.
+- 4022. Make a Level 1 plan without room names or tags for the tender set of my 8 by 5 m unit.
+- 4023. I want one Ground plan for the client with no grid lines and one for the builder with them showing.
+- 4024. List only the walls longer than 5 m in my 8 by 6 m house with a 3 m porch wall.
+- 4025. Number the rooms on both storeys of my 8 by 6 m house and total the room areas for each level.
+- 4026. Put four columns on each level of the frame and list them grouped by level.
+- 4027. Make grid A blue in the Ground plan, then change my mind and put it back to its normal colour.
+- 4028. Put the plan and a section of my 7 by 5 m studio on one sheet, the plan at 1:100 and the section at 1:50.
+- 4029. Duplicate the Ground plan for the structural engineer and hide the furniture and dimensions on the copy.
+- 4030. Show my 6 by 4 m shed in the 3D view as a realistic picture without edge lines.
+- 4031. Fill in the project details for the Harbour Street office and open a cover sheet for the set.
+- 4032. Open an elevations sheet and put my initials and today's issue date on it.
+- 4033. Delete the trial sheet A650 from the project tree and open a proper A650 in its place.
+- 4034. Open three sheets for the issue and give me the sheet list schedule.
+- 4035. Make all four exterior elevations of my 10 by 8 m house.
+- 4036. Cut a long section and a cross section through my 12 by 8 m workshop.
+- 4037. Cut a shallow wall section through the north wall of my 8 by 6 m room, set to medium detail.
+- 4038. Draw a 150 by 200 mm timber eaves block with a note as a 1:5 detail and put it on a detail sheet.
+- 4040. Run a supply duct with a diffuser along the corridor on Level 1 and put the plan on a sheet.
+- 4041. Run a 50 mm cold water pipe along the north wall on Level 1, schedule the pipes and put the plan on a sheet.
+- 4042. Lay out four sprinkler heads on a branch pipe on Level 1 and list the heads.
+- 4043. Put three power outlets and a conduit run on Level 1 and make an electrical sheet for the plan.
+- 4044. Make the sections and elevations for every grid line of my 8 by 6 m building in one go.
+- 4045. Draw an enlargement callout around the entrance of my 8 by 6 m house.
+- 4046. Put a section line and an elevation marker on the Ground plan of my 8 by 6 m house.
+- 4047. Start a 1:10 drafting view called Gutter Detail, open a sheet for it and place it.
+- 4048. Hide all the 900 x 2100 doors in the Ground plan with a view filter.
+- 4050. Show my steel frame in 3D on a dark grey background without level or grid lines.
+- 4051. Make a framing plan for Level 2 that shows the beams only, not the columns.
+- 4052. Put ceilings at 2700 mm in my two rooms and list the ceiling areas by level.
+- 4054. List only the beams longer than 6 m from my four-beam frame.
+- 4055. Schedule the ducts on Level 1 by system type and put the list on its own sheet.
+- 4056. List the air handling units and diffusers on Level 1 of the mechanical model.
+- 4057. I put the section on the wrong sheet; take it off sheet A310 and put it on A311.
+- 4058. The plan is too big on sheet A120; take it off and put it back at 1:100.
+- 4059. The client wants US and A4 paper: open an ANSI D, an ARCH D, an A4 and a sheet with no title block.
+- 4060. Dimension grids A to C across the Ground plan and put a north arrow on it.
+- 4061. Draw a 1:10 wall detail with a 300 mm outline, a brick region, a 90 mm insulation batt and a width dimension, and put it on a sheet.
+- 4062. Put the 3D view of my 6 by 4 m shed on a presentation sheet.
+- 4063. Count my doors by level, one row a level, with the count for each.
+- 4064. Make a level schedule, then undo it and put it back.
+- 4065. Add a mezzanine at 3000 mm with its own floor plan at 1:50 and a floor over a 6 by 4 m deck.
+- 4066. Make grids A and B grey and half see-through in the Ground plan so they do not fight the walls.
+- 4070. Make a drawing set for my 8 by 6 m cottage: a plan, a section, an elevation and the door list, all on one sheet.
+- 4071. Make a drawing set for my steel frame: a framing plan, a section, an elevation and the column and beam schedules, on one sheet.
+- 4072. Lay out four light fittings and a cable tray on Level 1 and list the fittings.
+- 4073. Place three fixtures on a 50 mm supply pipe on Level 1 and list the fixtures.
+- 4074. Put the switchboard in the plant room on Level 1 with two conduit runs and a conduit schedule.
+- 4075. Put a symbols legend and the general notes together on one cover sheet.
+- 4076. Run a sprinkler branch on Level 1, make a sheet for it and put the Level 1 plan on it at 1:100.
+- 4077. Open an electrical sheet and put a legend of the symbols on it.
+- 4078. Cut a section through the plant room on Level 1 and name it Plant Section.
+- 4079. Make elevations of the north and south faces of my steel frame.
+- 4080. Make a roof plan of my 9 by 6 m house at 1:100 and put it on a sheet of its own.
+- 4082. Duplicate the Ground plan and put the copy on a sheet for the electrician.
+- 4086. Add Levels 2 to 4 above my house plan, give each a floor and a plan at 1:200, and put the three plans on one sheet.
+
+## [Annotation, details and materials](annotation-details-and-materials.md)
+
+- 5001. Draw a 1:10 eaves detail for our timber frame wall: stud frame, rafter, batt insulation, plasterboard, notes and a dimension.
+- 5002. I need a 1:20 strip footing detail under a brick wall with a ground slab, DPM, gravel and the footing dimensions.
+- 5003. Detail a steel column base plate on a pad at 1:10 with the grout, two anchor bolts and the plate size noted.
+- 5004. Draw the 1:10 hanger detail for our rectangular ducts: the duct, two threaded rods, the angle bearer and a note on the rod size.
+- 5005. Show how a 100 mm pipe passes through a 200 mm slab at 1:10 with a sleeve, fire collar note and the sleeve dimension.
+- 5006. Please draw the window head detail at 1:5 for a brick veneer wall: lintel, frame, sealant, flashing and notes.
+- 5007. Draw our cable tray support bracket at 1:10: wall fixing, bracket arm, a 300 mm tray and a note on the anchor.
+- 5008. Detail a pendant sprinkler head through a plasterboard ceiling at 1:5, with the drop pipe, escutcheon and ceiling dimension.
+- 5009. Give me a 1:10 slab edge detail with a rebate for the brick, a drip groove, a rebate hatch and the slab depth noted.
+- 5010. Detail a 1200 square pad footing at 1:20 with the column stub, bottom bars as dots and a cogged bar, and the pad dimensions.
+- 5011. Draw the stair nosing at 1:5: tread, riser, a 20 mm nosing projection and an anti-slip strip, with the sizes noted.
+- 5012. Detail a flat roof parapet at 1:10: concrete upstand, membrane turned up, capping, insulation and the heights noted.
+- 5013. Dimension the outside of our 6 by 4 m site office: both long walls and both short walls.
+- 5014. Set out three grids each way at 8 m and put a dimension string along each direction.
+- 5015. Put two doors in the site office and tag both of them.
+- 5016. Make the 6 by 4 m office a named room, "Office 101", and tag it.
+- 5017. Put a north arrow and a scale bar beside the building on the Ground plan.
+- 5018. Mark spot elevations on the north and south walls of the plant room.
+- 5019. Tag the material on the east and west walls of the store.
+- 5020. Add a note with a leader to the east wall of the workshop that reads "FIRE WALL".
+- 5021. Write our six standard architectural general notes into a drafting view so I can put it on a sheet.
+- 5022. Make a structural notes view with a heading, concrete and steel notes in the small text type, and one long note that wraps.
+- 5023. List our mechanical abbreviations in a drafting view: SA, RA, EA, FCU and VAV, each with its meaning.
+- 5024. Draw a 100 mm pipe and a 50 mm riser in section at 1:5 and give each a diameter or radius dimension.
+- 5025. Dimension the three outer legs of an L-shaped shed with linear dimensions.
+- 5026. Add our three facade materials to the project: red brick, white render and zinc cladding, each set to its texture.
+- 5027. Make a blue-grey glazing material for the shopfront: mostly see-through, very smooth, with a blue-grey colour.
+- 5028. Add brushed stainless steel for the balustrade handrail: grey, mostly metal, with a satin finish.
+- 5029. Set up two structural materials with their engineering properties: N32 concrete and grade 250 steel.
+- 5030. Add galvanised sheet and duct lining to the project materials, with the supplier and cost on each.
+- 5031. Add a spotted gum floor finish with boards 150 mm wide, turned 90 degrees so they run across the room.
+- 5032. Set up the interior paint schedule as materials: warm white, sage green and charcoal, each lifted so it does not go grey in shade.
+- 5033. Draw the base of our brick cavity wall at 1:10: inner blockwork, outer brick, a 50 mm cavity, weep holes and the slab.
+- 5034. Detail the ridge of our tiled roof at 1:10: two rafters, ridge board, ridge capping and the tile battens.
+- 5035. Draw the window sill flashing at 1:5 with a 5 degree fall, a drip edge and the end dam noted.
+- 5036. Detail the accessible door threshold at 1:5: a 10 mm ramped threshold, slab edge and the floor finish on either side.
+- 5037. Show how the balustrade post is fixed to the slab edge at 1:10: base plate, two bolts and the rail height.
+- 5038. Detail a 1.2 m concrete retaining wall at 1:20: stem, base, gravel drain, a keyed toe and the key sizes.
+- 5039. Detail a timber floor joist bearing on a brick wall at 1:10, with the bearer plate, noggin and the bearing length.
+- 5040. Detail a 600 by 300 concrete beam section at 1:10: stirrup, three top and three bottom bars as circles, and the cover noted.
+- 5041. Detail the flexible duct connection to a ceiling diffuser at 1:10 with the spigot, clamp and the plenum box.
+- 5042. Draw the floor waste in a bathroom slab at 1:5: the waste body, a 100 mm grate, the waterproofing turn-down and the screed fall.
+- 5043. Detail a pipe passing through a 90 minute fire-rated plasterboard wall at 1:10: both linings, the studs, a collar and the sealant.
+- 5044. Draw the standard mounting heights for sockets and switches on a stud wall at 1:10 with the heights dimensioned.
+- 5045. Make me a sample view of the six hatch patterns we use in details, each in a box with its name under it.
+- 5046. Show our three wall batt sizes side by side in a stud wall section: 70, 90 and 140 mm.
+- 5047. Draw an externally lagged round duct section at 1:5: the duct wall, 50 mm lagging all round and a foil jacket.
+- 5048. Draw one sample of each detail line weight we use, Wide, Medium and Thin, and label them.
+- 5049. Sketch a hex nut in plan, a washer circle and a curved cable run in a drafting view to show our bolted joint symbol.
+- 5050. Lay out a switchboard front at 1:10: the cabinet, three breaker rows as rectangles and a label strip.
+- 5051. Hatch a concrete block, then put a masking region over the middle so the label has a clean background.
+- 5052. Tag the corner column and the first beam on the Level 1 structural plan.
+- 5053. Run a supply duct with one air terminal on it and tag the duct.
+- 5054. Put a note on the plant room plan pointing at the south wall: "120/120/120 FIRE RATED WALL".
+- 5055. Run a 100 mm sewer pipe along the corridor wall and tag it.
+- 5056. Add terracotta roof tile and a charcoal Colorbond sheet for the roof, with the tile repeat set to 330 mm.
+- 5057. Add the pipe materials for the hydraulic model: grey PVC and copper, with the thermal values on the copper.
+- 5058. Add a hot-dip galvanised finish for the cable trays and a copper material for the conductors.
+- 5059. Add the intumescent paint we spec on steelwork for a 90 minute rating, with its colour, supplier and cost.
+- 5060. Add three concrete finishes for the structural model: smooth, board-formed and rough, with the strength noted on each.
+- 5061. I drew one detail line too many in the lintel detail. Take the last one back, then bring it back again.
+- 5062. Draw the kitchen bench section at 1:10: a 33 mm stone top, the cabinet carcase, a kickboard and the splashback.
+- 5063. Detail a saw-cut control joint in a 150 mm ground slab at 1:5, with the cut depth, sealant and mesh position noted.
+- 5064. Draw the pipe clip fixing a 50 mm pipe to a concrete soffit at 1:5, with the anchor and the clip spacing noted.
+- 5065. Detail a duct passing through a fire wall at 1:10 with a fire damper in the wall, the retaining angle and the packing.
+- 5066. Draw the plan of a stepped duct transition in a drafting view and put a chain dimension along its three legs.
+- 5067. Draw a 20 mm conduit and a socket box in a stud wall at 1:5 with the stud, the lining and the box depth.
+
+## [Change, modify and freeform](change-modify-and-freeform.md)
+
+- 6001. Move the partition wall 1.5 m to the north.
+- 6002. Copy this 6 m wall 3.6 m north to make the other side of the corridor.
+- 6003. Turn the 5 m wall a quarter turn about its centre so it runs north to south.
+- 6004. Mirror the 4 m entrance wall across a centre line at y = 5000 so the lobby is symmetrical.
+- 6005. Mirror the north wing wall across the corridor wall.
+- 6006. Array this 3 m wall four times at 2 m centres for the cubicle partitions.
+- 6007. Delete the store wall, then undo it, then redo it.
+- 6008. Delete the south and north walls together, then take it back.
+- 6009. Select the whole 6 x 4 m meeting room with a window and move it 3 m north.
+- 6010. Pick the three corridor walls one after another, then clear the selection.
+- 6011. Touch the south and middle walls with a crossing box and delete them, keeping the north wall.
+- 6012. Drag the 5 m service wall 3 m north with the pointer.
+- 6013. Give the party wall the mark W-01 and a comment saying it is the wall to unit 2.
+- 6014. Make the plant room wall 4.2 m high and start it 150 mm up on a plinth.
+- 6015. Put a door in the south wall, mark it D01 and slide it 2.5 m along the wall.
+- 6016. Put a window in the north wall and copy it 3 m along for the second bay.
+- 6017. Drop the base of column C1 300 mm below the slab and lift its top 300 mm.
+- 6018. Slope the 6 m edge beam so its far end is 600 mm lower than its near end.
+- 6019. Repeat this column five times at 3 m centres along the grid line.
+- 6020. Mirror the column and its beam across the centre line at y = 6000.
+- 6021. Delete the corner column, bring it back with undo, then delete it again with redo.
+- 6022. Raise Level 1 to 3600, lift the roof level to 7200 and call it Level 2, then add a Parapet level at 10800.
+- 6023. Add a mezzanine level at 1500, copy it up 3 m for the plant deck, then undo the copy.
+- 6024. Add the plant level at 9000, delete it, then undo and redo the delete.
+- 6025. Set out a column grid: five lines running north to south at 6 m centres and three running east to west at 6 m centres.
+- 6026. Move grid A 500 mm east, copy it 8 m for the second line, rename the original to Z, then delete it and take the delete back.
+- 6027. Add a Level 3 at 9000, lift it to 9300 and rename it Roof Slab.
+- 6028. Copy the 6 m supply duct 3 m north for the second room and mark it SA-2.
+- 6029. Turn the 5 m return duct a quarter turn about its centre, then delete the 2 m stub.
+- 6030. Repeat the 6 m cold water branch four times at 2.5 m centres for the four bathrooms.
+- 6031. Mirror the 100 mm sprinkler branch to the other side of the 8 m main.
+- 6032. Offset the 6 m main 1.2 m north to run the parallel return.
+- 6033. Repeat the distribution board four times at 2.5 m centres along the plant wall.
+- 6034. Copy distribution board DB-1 3 m east and mark the copy DB-2.
+- 6035. The east wall sits 300 mm out of line with the west wall: align it to the west wall's line.
+- 6036. Trim the south wall and the east wall to meet in a clean corner.
+- 6037. Extend the 5 m partition east until it meets the boundary wall.
+- 6038. Split the 8 m wall at its middle and delete the east half.
+- 6039. Break the 8 m wall in two with a gap at the movement joint.
+- 6040. Offset the 8 m facade wall 1.5 m inward to start the inner leaf.
+- 6041. Pin the surveyed boundary wall so nobody moves it, then unpin it and move it 500 mm.
+- 6042. Draw a spline model line through four points for the garden path edge, then copy it 3 m north for the other edge.
+- 6043. Draw the 6 x 4 m pavilion footprint as a rectangle of model lines.
+- 6044. Draw the fountain as a model line circle of 2.5 m radius.
+- 6045. Draw the L-shaped setting-out line as three connected model lines.
+- 6046. Draw the curved bench back as a model line arc, 6 m chord with a 2.5 m rise.
+- 6048. Draw a faceted degree 1 curve through five points for the folded-plate edge.
+- 6049. Draw the fascia line as a degree 2 curve driven by control points rather than passing through them.
+- 6050. Draw the balustrade top-rail curve on Level 1, 500 mm above the floor.
+- 6051. Loft a canopy surface between the front edge curve and the raised back edge curve.
+- 6052. Loft the shell through three section curves and divide it into hexagonal panels.
+- 6053. Revolve the profile curve 360 degrees about a vertical axis to make the column vase.
+- 6054. Revolve the profile 180 degrees to make the half-round apse surface.
+- 6055. Sweep the small section curve along the rail curve to model the curved handrail.
+- 6056. Put a 1 m wide spiral stair in the corner of the atrium, Ground up to Level 1.
+- 6057. Draw a 1.2 m wide spiral stair turning left through three quarters of a turn to the mezzanine at Level 1.
+- 6058. Loft a roof shell through two curves on Level 1 for the stadium canopy study.
+- 6062. Loft the two curves, take the loft back with undo, then put it back with redo.
+- 6063. Draw a trial curve, decide against it and delete it.
+- 6064. Upsize the cold water riser to 150 mm and mark it CW-1.
+- 6065. Resize the main supply duct to 600 x 400 and mark it SA-1.
+- 6066. Repeat the 8 m beam four times at 3 m centres for the floor framing.
+- 6067. Select one bay of the frame, two columns and the beam between them, and move it 2 m north.
+- 6068. Move, copy and turn the wall, take the three changes back one by one, then redo the first.
+- 6069. Delete the door from the north wall, then undo the delete to bring it back.
+- 6070. Select the three stair-core walls together and write the fire rating in all their comments.
+- 6071. Turn the 6 m roof beam a quarter turn about its centre to run it north to south.
+- 6072. Drag the 6 m waste pipe 2 m north to clear the beam below.
+- 6073. Select the two walls of the L-shaped wing with a window and mirror them across the line at x = 16000.
+- 6074. Window-select the whole east bay of the frame, delete it, then undo the delete.
+- 6075. Scale the 6 m boundary wall up from its west end to 9 m.
+- 6076. Join the slab to the wall that stands on it so the slab edge follows the wall.
+
+---
+UNION runs with a licence: free trial at https://www.unionbim.com/. Free research licences for AI labs, universities and researchers: research@unionbim.com.
