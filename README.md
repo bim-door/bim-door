@@ -17,7 +17,7 @@ UNION models a building and makes its drawings: plans, sections, elevations, det
 
 - The person opens a new project from a template; on the AI door, New is the person's own press.
 - `ops_run {"lines":[...]}`: one line per element. Units are millimetres.
-- `steps_run {"steps":[...]}`: `<control> Â· picks <points> Â· keys <keys> Â· fields <Dialog: Field=value> Â· expect <what must show>`.
+- `steps_run {"steps":[...]}`: `<control> · picks <points> · keys <keys> · fields <Dialog: Field=value> · expect <what must show>`.
 - UNION's answer to each line, then UNION's count of the model after the last line.
 
 ---
