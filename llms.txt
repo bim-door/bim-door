@@ -1,6 +1,8 @@
-# BIM door: how an AI drives UNION
+# UNION MCP BIM Server
 
-> How an AI drives UNION, a BIM and drafting program, for structural, mechanical, electrical and architectural offices through its MCP door: the guide, every command, the one-line ops and 449 real drafting jobs with their calls and UNION's answers, played on UNION 1.0.0-beta.2.
+> The MCP server built into UNION, a BIM and CAD drafting program for structural, mechanical, electrical and architectural offices and an alternative to Autodesk Revit and AutoCAD for drawings: the guide, every command, the one-line ops and 449 real drafting jobs with their calls and UNION's answers, played on UNION 1.0.0-beta.2.
+
+Revit, AutoCAD and Autodesk are trademarks of Autodesk, Inc. UNION is not affiliated with or endorsed by Autodesk.
 
 ## Start here
 - [README](https://github.com/bim-door/bim-door/blob/main/README.md): what UNION is and how an AI works in it
