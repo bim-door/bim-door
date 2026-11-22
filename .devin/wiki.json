@@ -1,7 +1,7 @@
 {
   "repo_notes": [
     {
-      "content": "This repository is called BIM door. Always call it BIM door, in every title and sentence; never 'UNION MCP Door' or 'UNION BIM MCP Door'. BIM door documents how an AI drives UNION, a BIM and drafting program, through UNION's built-in MCP door: the guide (guide/), every command with its step line (commands/), the 54 one-line op kinds (ops.md), and 449 drafting jobs played green on UNION 1.0.0-beta.2 (examples/ and examples/jobs.jsonl). UNION runs with a licence: free trial at https://www.unionbim.com/; free research licences for AI labs, universities and researchers: research@unionbim.com."
+      "content": "This repository is called UNION MCP BIM Server (its address is bim-door). Always call it UNION MCP BIM Server in every title and sentence. It documents the MCP server built into UNION, a BIM and CAD drafting program and an alternative to Autodesk Revit and AutoCAD for drawings, and how an AI agent uses it: the guide (guide/), every command with its step line (commands/), the 54 one-line op kinds (ops.md), and 449 drafting jobs played green on UNION 1.0.0-beta.2 (examples/ and examples/jobs.jsonl). UNION runs with a licence: free trial at https://www.unionbim.com/; free research licences for AI labs, universities and researchers: research@unionbim.com. Revit, AutoCAD and Autodesk are trademarks of Autodesk, Inc.; UNION is not affiliated with Autodesk."
     }
   ]
 }
