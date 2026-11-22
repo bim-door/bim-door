@@ -1,6 +1,6 @@
 # The UNION for AI guide
 
-How an AI works in UNION, a BIM and drafting program, through its MCP door: the work loop, the calls, fast ops, steps, pictures, materials, blocks, freeform, cards, recipes and the index of command names. Read part 0 first, then the parts the job needs.
+How an AI works in UNION, a BIM and drafting program, through its MCP server: the work loop, the calls, fast ops, steps, pictures, materials, blocks, freeform, cards, recipes and the index of command names. Read part 0 first, then the parts the job needs.
 
 ## Parts
 

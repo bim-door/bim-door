@@ -1,6 +1,6 @@
 # Start here
 
-UNION is a complete building-modelling and drafting program: walls, floors, roofs and stairs; freeform (NURBS) curves and surfaces; structure and building services; blocks; materials with photographic textures and a node graph; views, schedules, sheets and printing; realistic pictures. An AI works in UNION through the calls in this guide. UNION AI, the AI built into UNION, works this way for the drafter, and AI labs and researchers reach the same calls through UNION's MCP door on a free research licence.
+UNION is a complete building-modelling and drafting program: walls, floors, roofs and stairs; freeform (NURBS) curves and surfaces; structure and building services; blocks; materials with photographic textures and a node graph; views, schedules, sheets and printing; realistic pictures. An AI works in UNION through the calls in this guide. UNION AI, the AI built into UNION, works this way for the drafter, and AI labs and researchers reach the same calls through UNION's MCP server on a free research licence.
 
 THIS GUIDE. It is written for AI agents. It is the guide that ships inside UNION 1.0.0-beta.2, cut down to what has been played through UNION's AI door: calls not yet played, and the notes on them, are left out. The guide inside UNION holds the rest and is read by part with `get_guide`; the part numbers here are the same as there, so a number missing here is a part kept in the program.
 
