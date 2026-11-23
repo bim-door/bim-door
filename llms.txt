@@ -6,6 +6,7 @@ Revit, AutoCAD and Autodesk are trademarks of Autodesk, Inc. UNION is not affili
 
 ## Start here
 - [README](https://github.com/bim-door/bim-door/blob/main/README.md): what UNION is and how an AI works in it
+- [Connect](https://github.com/bim-door/bim-door/blob/main/README.md#connect): the one command an AI app starts, and the apps UNION sets up itself
 - [The guide](https://github.com/bim-door/bim-door/blob/main/guide/README.md): the work loop, the calls, fast ops, steps, recipes
 - [Everything in one file](https://github.com/bim-door/bim-door/blob/main/llms-full.txt)
 

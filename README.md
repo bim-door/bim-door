@@ -2,6 +2,16 @@
 
 The MCP server built into UNION, a BIM and CAD drafting program, and how an AI agent uses it to model a building and make its drawings: the guide, every command, the one-line ops, and 449 real drafting jobs with their exact calls and UNION's answers, played on UNION 1.0.0-beta.2.
 
+**For an AI agent:** start at [llms.txt](https://github.com/bim-door/bim-door/blob/main/llms.txt), then read [the guide](https://github.com/bim-door/bim-door/blob/main/guide/README.md). Everything in one file: [llms-full.txt](https://github.com/bim-door/bim-door/blob/main/llms-full.txt).
+
+## Connect
+
+UNION runs on the person's own Windows PC, and its MCP server is part of UNION itself: nothing is hosted and nothing else is installed.
+
+- The command an AI app starts is `UNION.exe --mcp` (stdio). The server's name is `union`.
+- UNION adds that entry itself to Claude Desktop, Claude Code, GitHub Copilot CLI, Visual Studio, Gemini CLI and Codex once the person says yes to it inside UNION. For any other app UNION shows the program's path and its one argument to copy.
+- Your calls reach the model the person has open. Your first call is `get_guide` with no arguments.
+
 UNION models a building and makes its drawings: plans, sections, elevations, details, schedules and sheets, for structural, mechanical, electrical and architectural offices. An AI works in it through calls: `ops_run` (one line per element, for example `op:add wall from=(0,0) to=(6000,0) level=Ground`), `steps_run` (any ribbon press, dialog or pick, in UNION's step language), `commands_run`, reads of every element, type and schedule, and pictures of any view. Each call answers green or red in UNION's own words, with the counts it changed.
 
 ## Contents
